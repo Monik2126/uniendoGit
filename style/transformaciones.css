@@ -8,15 +8,21 @@ transformar a rotate(deg)
  */
 
 div{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
     border: 1px solid black;
     /* transform: rotateX(120deg);
     transform: rotateY(120deg); */
     /* transform: rotateZ(120deg); */
     /* transform: scale(3,2); */
     /* transform: scale(0.5,0.5); */
+}
+.s{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin-top: 40vh;
 }
 
 
