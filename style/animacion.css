@@ -7,10 +7,10 @@ delay
 iteraciones */
 
 div{
-    width: 100px;
+    width: 50px;
     height: 100px;
-    background-color: aqua;
-    border: 1px solid blue;
+    background-color: rgb(12, 182, 182);
+    border: 1px solid rgb(1, 1, 20);
     position: relative;
 
     animation-name: anime;
