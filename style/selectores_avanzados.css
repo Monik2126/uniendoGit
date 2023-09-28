@@ -1,0 +1,130 @@
+/* ----------Selectores Avanzados---------- */
+
+
+/* Selector agrupado: se aplica todas
+las reglas a todas las etiquetas 
+separadas por coma. Ej: extraer
+el padding de varias etiquetas 
+semanticas*/
+header,div,nav,aside{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Selector descendente: se aplica la 
+regla a toda etiqueta contenida dentro 
+del contenedor indicado, separando
+por espacio
+etiqueta_contenedor etiqueda_afectada{}  */
+div p{
+    background-color: darkturquoise;
+}
+
+.especial p{
+    background-color: darksalmon;
+}
+
+#unico p{
+    background-color: darkolivegreen;
+}
+
+/* Selector hijos directos: especifica 
+la relación padre e hijo directo
+etiqueta_padre > etiqueta_hijo{}
+ */
+div > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+
+/* Selector hijos no directos: especifica 
+la relación padre y cualquier hijo
+etiqueta_padre * etiqueta_hijo{}
+ */
+section * p{
+    background-color: darkorange;
+}
+
+
+/* Selector hermanos adyacentes: aplica
+la regla a dos etiquetas que sean consecutivas
+titulo + subtitulo{} */
+h1 + h2{
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Selector general hermanos 
+titulo ~ subtitulo{}*/
+h1 ~ h2{
+    color: crimson;
+    font-weight: bold;
+}
+
+/* -----------Pseudoclases--------------- */
+/* Aplicados a los hipervínculos, cambiar color*/
+/* :hover */
+a:hover{
+    background-color: aqua;
+    color:black;
+    font-weight: bold;
+}
+
+/* :link */
+a:link{
+    color: darkgreen;
+}
+
+/* :activate */
+a:active{
+    color: yellow;
+}
+
+/* :visited */
+a:visited{
+    color:darkcyan;
+}
+
+/* Primer hipervinculo
+:first-child */
+a:first-child{
+    background-color: black;
+    color:white;
+}
+
+/* Último elemento 
+:last-child */
+a:last-child{
+    background-color: coral;
+}
+
+
+/* Cualquier elemento por posición */
+/* :nth-child(ubicación) */
+a:nth-child(3){
+    background-color: brown;
+    color: white;
+}
+
+
+/* ------------Pseudoelementos */
+/* Aplicar propiedad a primer letra del párrafo
+::first-letter */
+p::first-letter{
+    font-size: xx-large;
+}
+
+/* Aplicar propiedad a primer línea del párrafo
+::first-line */
+p::first-line{
+    background-color:deepskyblue;
+}
+
+/* Aplicar propiedad a una selección del párrafo
+::selection */
+p::selection{
+    background-color: palevioletred;
+}

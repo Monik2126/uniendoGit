@@ -1,0 +1,41 @@
+/* Agregar dimensiones 
+color de fondo
+nombre de la animación sin comillas
+duracion de la animación 
+posición relativa
+delay
+iteraciones */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid blue;
+    position: relative;
+
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+   
+}
+
+/* Crear el @keyframes
+con el nombre de la animación{
+    agregar los % a aplicar y 
+    las {propiedades --> color fondo,
+    left y top } */
+
+/* @keyframes anime{
+    from{background-color: brown;}
+    to{background-color: chartreuse;}
+} */
+
+@keyframes anime{
+    0%{background-color: blue; left: 0px; top: 0px;}
+    25%{background-color: chocolate; left: 200px; top: 0px;}
+    50%{background-color: crimson;  left: 200px; top: 200px;}
+    75%{background-color: darkgreen; left: 0px; top: 200px;}
+    100%{background-color:aqua; left: 0px; top: 0px;}
+
+}

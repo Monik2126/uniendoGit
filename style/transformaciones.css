@@ -1,0 +1,27 @@
+/* Agregar
+dimensiones 
+color de fondo
+borde
+aplicar propiedad para 
+transformar a scale(nro,nro) 
+transformar a rotate(deg) 
+ */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* transform: rotateX(120deg);
+    transform: rotateY(120deg); */
+    /* transform: rotateZ(120deg); */
+    /* transform: scale(3,2); */
+    /* transform: scale(0.5,0.5); */
+}
+
+
+/* Aplicar un hover
+y tranformación a escala */
+div:hover{
+    transform: scale(1.1,1.1);
+}
