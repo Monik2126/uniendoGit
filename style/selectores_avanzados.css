@@ -45,7 +45,7 @@ la relación padre y cualquier hijo
 etiqueta_padre * etiqueta_hijo{}
  */
 section * p{
-    background-color: darkorange;
+    background-color: aliceblue;
 }
 
 
@@ -120,11 +120,11 @@ p::first-letter{
 /* Aplicar propiedad a primer línea del párrafo
 ::first-line */
 p::first-line{
-    background-color:deepskyblue;
+    background-color:rgba(154, 222, 245, 0.493);
 }
 
 /* Aplicar propiedad a una selección del párrafo
 ::selection */
 p::selection{
-    background-color: palevioletred;
+    background-color: rgb(243, 173, 196);
 }
